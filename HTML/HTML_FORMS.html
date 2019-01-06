@@ -5,11 +5,11 @@
     <title>FORMS</title>
   </head>
   <body>
-    <form class = "" action = "HTML_BASICS_2.html" method = "post">
+    <form action = "HTML_BASICS_2.html" method = "get">
 
       <!-- Type of the input specifies the input type while the name of the input
         can be saved for the later functionality while the last value the default value
-        of the input -->
+        of the input , placeholder = "hint value"-->
 
       <h1> Log In </h1>
       <h2> Please enter your email and password </h2>
@@ -23,6 +23,17 @@
       <h2> Enter some text </h2>
       <input type = "text" value = "Text goes here">
 
+      <h3> LABEL </h3>
+      <label for="user_text">
+        Enter Text:
+        <input id = "user_text" type = "text" name = "" value = "" placeholder="Text"
+        required>
+      </label>
+      <label for="user_password">
+        Enter Password:
+        <input id = "user_password" type = "password" name = "" value = ""
+        placeholder="Password" required>
+      </label>
     </form>
 
   </body>

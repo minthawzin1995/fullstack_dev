@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>FeedBack</title>
+  </head>
+  <body>
+    <h1>Hotel Feedback </h1>
+    <form method = "get">
+      <!-- Give the same name to allow only one value -->
+      <h3>Will my bet come true ?</h3>
+      <label for="bet_true"> True </label>
+      <input id = "bet_true" type = "radio" name= "boolean" value = "true">
+      <label for="bet_false"> False </label>
+      <input id = "bet_false" type = "radio" name ="boolean" value = "false">
+
+      <!-- Drop Down Menu -->
+      <h3>What is your ROI ? </h3>
+      <select class="" name ="Percentage">
+        <option value = "55%">55%</option>
+        <option value = "50%">50%</option>
+        <option value = "45%">45%</option>
+      </select>
+
+      <!-- Text-Area input -->
+      <h3> Any Other Comments </h3>
+      <textarea name="name" rows="8" cols="80"></textarea>
+      <br>
+      <input type = "submit">
+    </form>
+  </body>
+</html>
