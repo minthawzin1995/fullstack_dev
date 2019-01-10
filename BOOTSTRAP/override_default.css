@@ -1,7 +1,8 @@
-.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited,  {
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited, .btn-lg  {
   outline-color: #F68E5F;
-  color: #F68E5F;
+  color: white;
   border-color: #F68E5F;
+  background-color: #F68E5F;
 }
 
 .btn-outline-primary{
