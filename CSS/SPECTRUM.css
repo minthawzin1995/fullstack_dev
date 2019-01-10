@@ -1,0 +1,37 @@
+td{
+  background: blue;
+  height: 300px;
+  width: 150px;
+}
+
+/*use google fonts for a good font https://fonts.google.com/ */
+/*use the link and import into html page and then use the font-family in css*/
+h1{
+  text-align: center;
+  font-family: 'Libre Barcode 128 Text', cursive;
+}
+
+.art{
+  margin:auto;
+}
+
+/* use the website coolors.co for color codes */
+#one {
+  background-color:#484349
+}
+
+#two {
+  background-color:#000000
+}
+
+#three {
+  background-color:#F0EFF4
+}
+
+#four {
+  background-color:#9E829C
+}
+
+#five {
+  background-color:#FFE66D
+}

@@ -1,0 +1,20 @@
+/*This is how to comment in CSS*/
+
+/*
+selected tag {
+  property: value;
+}
+*/
+
+h1{
+  color:blue;
+}
+
+.firstDiv {
+  color:red;
+}
+
+.secondDiv {
+  color:orange;
+  font-size: 26px;
+}
