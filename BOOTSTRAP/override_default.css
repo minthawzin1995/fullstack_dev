@@ -1,0 +1,16 @@
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited,  {
+  outline-color: #F68E5F;
+  color: #F68E5F;
+  border-color: #F68E5F;
+}
+
+.btn-outline-primary{
+  background-color: #F68E5F;
+  color : white;
+  border-color: #F68E5F;
+}
+
+.navbar-nav > li{
+  padding-left:30px;
+  padding-right:30px;
+}
