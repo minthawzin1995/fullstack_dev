@@ -1,5 +1,4 @@
-# Fullstack_dev
-Python and Django Full Stack Web developer bootcamp
+# Python and Django Full Stack Web developer bootcamp
 
 Current development Screenshot:
 
